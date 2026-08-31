@@ -1,0 +1,5 @@
+#hiding the virtual enviroment
+.venv
+
+#hiding environment variables
+.env
