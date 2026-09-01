@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+a{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
