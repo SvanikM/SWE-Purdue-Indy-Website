@@ -3,3 +3,6 @@
 
 #hiding environment variables
 .env
+
+#ds store
+.DS_Store
