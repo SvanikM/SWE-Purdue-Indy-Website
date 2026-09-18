@@ -1,6 +1,7 @@
 body{
     margin: 0;
     text-align: center;
+    background-color: #A9A8A9;
 }
 
 h1{
@@ -19,4 +20,11 @@ a{
     display: block;
     text-align: center;
     margin-top: 20px;
+}
+.highlighted-text {
+    color: #A9A8A9;
+}
+header {
+    background-color: #5A5377;
+    height: 20vh;
 }
