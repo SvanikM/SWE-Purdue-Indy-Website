@@ -6,16 +6,26 @@ body{
 
 h1{
     text-align: center;
+    margin: 0;
+    position: relative;
+    top: 60px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
-img{
+.left-side {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    height: 350px;
+    z-index: 10;
+}
+.right-side {
     position: absolute;
     top: 10px;
-    left: 10px;
-    width: 150px;
-    height: 150px;
+    right: 10px;
+    height: 180px;
 }
-
 a{
     display: block;
     text-align: center;
@@ -27,4 +37,7 @@ a{
 header {
     background-color: #5A5377;
     height: 20vh;
+    position: relative;
+    width: 100%;
 }
+
