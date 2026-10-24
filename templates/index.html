@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
-
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SWE PIN</title>
         <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     </head>
-
     <body>
-        <!-- <img src="{{ url_for('static', filename='p2-logo.png') }}" alt="Purdue Logo" class="left-side"> -->
         <header>
-            <h1 class="highlighted-text"> Society of Women Engineers - Purdue Indianapolis</h1>
-            <a href="https://swe.org/">
-               <img src="{{ url_for('static', filename='SWE_logo.jpeg') }}" alt="SWE Logo" class="right-side">
-            </a>
+            <div class="header-content">
+                <h1>Society of Women Engineers Purdue Indianapolis</h1>
+                <a href="https://swe.org/">
+                    <img src="{{ url_for('static', filename='SWE_logo.jpeg') }}" alt="SWE Logo">
+                </a>
+            </div>
+            <nav>
+                <a href="{{ url_for('about') }}">About Us</a>
+                <a href="{{ url_for('events') }}">Events</a>
+            </nav>
         </header>
-        <!-- <a href="https://swe.org/">Society Of Women Engineers Organization page</a> --->
     </body>
 </html>
