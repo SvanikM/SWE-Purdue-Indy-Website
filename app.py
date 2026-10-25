@@ -13,5 +13,9 @@ def about():
 def events():
     return render_template("page.html", title="Events")
 
+@app.route("/resources")
+def resources():
+    return render_template("page.html", title="Resources")
+
 if __name__ == "__main__":
     app.run(debug=True)
