@@ -1,0 +1,7 @@
+1- Create pages for members and social media/contact pages
+2- Create a login page ->
+    2.1 - Create a form to create events and scholarships for members
+    2.2 - Create API routes for the forms to be able to populate the DB
+    2.3 - Implement some chronjob for the Website to auto refresh and query the DB for events and scholarships, 
+          and some auto refresh when its updated(some trigger)
+    
